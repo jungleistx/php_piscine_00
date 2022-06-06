@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Basics</title>
+	<style>
+		#signature {
+			text-align: right;
+			font-style: italic;
+		  	font-family: monospace;
+		}
+		html {
+			background-color: pink;
+		  }
+
+		.image {
+			width: 75%;
+			padding: 10%;
+			max-width: 600px;
+		  }
+
+		.flex-container {
+			display:flex;
+			padding: 2%;
+		  }
+
+		.flexdiv {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			width: 50%;
+			justify-content: center;
+			align-items: center;
+			padding: 10px 10px;
+		  }
+		#header {
+			color:white;
+			text-align:center;
+			font-size: 4vw;
+		  }
+	</style>
+</head>
+<body>
+	<header id="header">
+		<h1>Roope's &egrave-boutique</h1>
+	</header>
+
+	<div class="flex-container">
+		<div class="flexdiv">
+			<img class="image" src="https://www.synointcdn.com/wp-content/uploads/2019/04/Amazon-Logo-PNG.png" alt="amazon logo">
+			<a href="https://www.amazon.com" target="_blank">Amazon.com</a>
+		</div>
+		<div class="flexdiv">
+			<img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/1200px-EBay_logo.svg.png" alt="ebay logo">
+			<a href="https://www.ebay.com" target="_blank">Ebay.com</a>
+		</div>
+	</div>
+
+	<div>
+		<hr/>
+		<p  id="signature">&copy rvuorenl 2022</p>
+	</div>
+
+</body>
+</html>
