@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+html {
+	background-image: url(https://media.istockphoto.com/photos/abstract-blue-cyan-background-picture-id995719694?k=20&m=995719694&s=612x612&w=0&h=zI2SFqWdZallvqgVphnq5T8ZWYK0TBIkKdyYP60JAI8=);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nonmetal {
+	background-color: rgb(156, 153, 152);
+}
+
+.alkali {
+	background-color: rgb(217, 160, 100);
+}
+
+.alkaline {
+	background-color: rgb(224, 85, 42);
+}
+
+.transition {
+	background-color: rgb(236, 223, 41);
+}
+
+.metal {
+	background-color: rgb(42, 161, 3);
+}
+
+.metalloid {
+	background-color: rgb(132, 210, 60);
+}
+
+.halogen {
+	background-color: rgb(80, 205, 208);
+}
+
+.noble {
+	background-color: rgb(73, 96, 228);
+}
+
+.lanthanide {
+	background-color: rgb(126, 67, 174);
+}
+
+.actinide {
+	background-color: rgb(209, 131, 177);
+}
+
+.container-top {
+	display: grid;
+	grid-template-columns: repeat(18, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+	margin: 1%;
+}
+
+
+.box {
+	display: block;
+	padding: 5px;
+	margin: 1%;
+	border-radius: 10%;
+
+}
+
+.name {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	height: 80%;
+	font-size: 2.2vw;
+	padding-top: 10%;
+}
+.name2 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	height: 80%;
+	font-size: 1.5vw;
+	padding-top: 10%;
+}
+
+.info {
+	display: flex;
+	height: 20%;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.info .weight	{
+	font-size: small;
+	font-size: 0.6vw;
+	padding-right: 2%;
+	order: 2;
+}
+
+.info .number {
+	font-style: small;
+	font-size: 0.6vw;
+	padding-left: 2%;
+	order: 1;
+}
+
+.container-bottom {
+	display: grid;
+	grid-template-columns: repeat(15, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	width: 90%;
+	margin: 2% 10%;
+	padding-right: 2%;
+}
+
+.bottom-text {
+	display: block;
+	width: 10%;
+	text-align: center;
+	font-size: 160%;
+}
+.bonus {
+	height: 50%;
+	padding-top: 10%;
+	align-items: end;
+	font-size: 1.5vw;
+	justify-content: center;
+}
+
+.container-all {
+	padding: 3%;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	margin-top: 1%;
+	display: flex;
+	align-items: center;
+}
+header h1{
+	display: flex;
+	text-align: center;
+	font-size: 5vw;
+	font-weight: bold;
+	justify-content: center;
+	align-items: flex-start;
+	width: 80%;
+	text-decoration: underline;
+}
+
+header img {
+	width: 20%;
+	min-width: 1%
+	justify-content: center;
+	max-width: 300px;
+}
